@@ -122,13 +122,14 @@
 000122220414           10  H-TBL-CREATED-TS      PIC  X(26).
 000123220414           10  H-TBL-USER            PIC  X(10).
 000124220414           10  H-TBL-OPERATION       PIC  X(100).
-000125220414       01  H-SP-NAME                    PIC X(128).
-000126220414       01  H-SP-DTALIB                  PIC X(10).
-000127220414       01  H-SP-SCHEMA                  PIC X(10).
-000128220414
-000129220414           EXEC SQL
-000130220414                END   DECLARE SECTION
-000131220414           END-EXEC.
+000125220520           10  H-TBL-OPERATION       PIC  X(100).
+000126220414       01  H-SP-NAME                    PIC X(128).
+000127220414       01  H-SP-DTALIB                  PIC X(10).
+000128220414       01  H-SP-SCHEMA                  PIC X(10).
+000129220414
+000130220414           EXEC SQL
+000131220414                END   DECLARE SECTION
+000132220414           END-EXEC.
 000133220414
 000134220414      *****************************************************************
 000135220414      *           *****   Linkage Variables   *****                   *
